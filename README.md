@@ -20,12 +20,17 @@ A simple Django-based marketplace where users can buy and sell products.
    env\Scripts\activate  # Windows
 
 4. Install dependecies
+    ```bash
    pip install -r requirements.txt
 5. Apply database migrations
+    ```bash
    python manage.py migrate
 6. Create a super user (optional, for admin access)
-  python manage.py createsuperuser
+    ```bash
+     python manage.py createsuperuser
 7. Start the development server
-  python manage.py runserver
+   ```bash
+   python manage.py runserver
 8. Open the project in your browser
+```bash
    http://127.0.0.1:8000/
